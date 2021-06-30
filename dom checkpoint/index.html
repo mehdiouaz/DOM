@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" />
+  </head>
+  <body>
+
+
+   <div class="container">
+     <h1>Shopping Cart</h1>
+      <table class="main-table">
+        <thead>
+          <div class="header-table">
+          <tr >
+          <th class="left">Product</th>
+          <th class="left">Name</th>
+          <th class="left">Quantity</th>
+          <th class="left">Price</th>
+          <th class="text-right">
+            <span class="amount1">Amount</span>
+         </th>
+        </tr>
+        </div>
+      </thead>
+    </table>
+      <tbody>
+        <div class="mini-container">
+         <tr>
+           <th>
+             <td>
+               <div class="img-product">
+                 <img class="img-size" src="https://mliqezueay6o.i.optimole.com/QXtFA8o-SzrL7GH2/w:510/h:680/q:auto/https://www.chaffree.com/wp-content/uploads/2018/07/Ankle-Coolmax-black-1.jpg" alt="">
+               </div>
+
+             </td>
+             <td>
+               <p>
+                 socks
+               </p>
+             </td>
+             <td>
+             <div class="button-container">
+                <button class="Qtn-minus" type="button" value="-"> - </button>
+                <input class="Qty" type="text"  min="0" value="0">
+                <button class="Qtn-plus" type="button" value="+"> + </button>
+             </div>
+            </td>
+            <td>
+              <input type="text" value="15" class="price" disabled>
+            </td>
+            <td><i class="fas fa-heart"></i></td>
+            <td align="right"> <span class="amount">0
+
+            </span>
+            </td>
+           </th>
+         </tr>
+        </div>
+        <div class="mini-container">
+         <tr>
+          <th>
+            <td>
+              <div class="img-product">
+                <img class="img-size" src="https://5.imimg.com/data5/DM/GD/MY-13787453/men-damage-jeans-500x500.jpg" alt="">
+              </div>
+
+            </td>
+            <td>
+              <p>
+                Jeans
+              </p>
+            </td>
+            <td>
+            <div class="button-container">
+               <button class="Qtn-minus" type="button" value="-"> - </button>
+               <input class="Qty" type="text" min="0" value="0">
+               <button class="Qtn-plus" type="button" value="+"> + </button>
+            </div>
+           </td>
+           <td>
+             <input type="text" value="35" class="price" disabled>
+           </td>
+           <td>
+            <i class="fas fa-heart"></i>
+           </td>
+           <td align="right"> <span class="amount">0
+
+           </span>
+           </td>
+          </th>
+        </tr> 
+      </div>
+      <div class="mini-container">
+           <tr>
+          <th>
+            <td>
+              <div class="img-product">
+                <img class="img-size" src="https://img01.ztat.net/article/spp-media-p1/27c3233f03a03b468319740488505797/1c76f56f01164bf4a4a89968ed533d3a.jpg?imwidth=762&filter=packshot" alt="">
+              </div>
+
+            </td>
+            <td>
+              <p>
+                Tupac t-shirt
+              </p>
+            </td>
+            <td>
+            <div class="button-container">
+               <button class="Qtn-minus" type="button" value="-"> - </button>
+               <input class="Qty" type="text" min="0" value="0">
+               <button class="Qtn-plus" type="button" value="+"> + </button>
+            </div>
+           </td>
+           <td>
+             <input type="text" value="55" class="price" disabled>
+           </td>
+           <td>
+             <i class="fas fa-heart"></i>
+           </td>
+           <td align="right"> <span class="amount">0
+
+           </span>
+           </td>
+          </th>
+        </tr>
+      </div>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td align="right">
+            <strong>TOTAL=  <span class="total">
+              0
+            </span>
+          </strong>
+          </td>
+        </tr>
+      </tfoot>
+    </div>
+
+    <script src="js.js"></script>
+  </body>
+</html>

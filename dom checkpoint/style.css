@@ -1,0 +1,42 @@
+.header-table {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100px;
+  margin-right: 40px;
+  padding-right: 40px;
+}
+
+.changecolor {
+  color: red;
+}
+.main-table {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  margin-right: 40px 40px;
+  padding-right: 40px 40px;
+}
+
+.mini-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 50px;
+  font-size: 50px;
+  height: 150px;
+}
+
+.img-size {
+  height: 150px;
+}
+.table {
+  display: flex;
+  flex-direction: column;
+  vertical-align: middle;
+  border: 40px;
+  margin: 30px;
+  padding-left: 40px;
+}
